@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="Scripts.js"></script>
+    <link rel="stylesheet" href="Styles.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Merienda|Pacifico" rel="stylesheet">
+    <style>
+        td{
+            font-family: 'Pacifico';
+            font-size:80px
+        }
+    </style>
+    <meta charset="UTF-8">
+
+    <title>BoOOoOOo!</title>
+</head>
+
+<body style="border:dotted #ffc338 12px;border-top:none;padding:10px 30px 30px 30px;width: fit-content;margin-left: 100px;margin-right: 100px ">
+    <div  style="border: dashed  #ff7f50 1px;padding-bottom: 10px;width:fit-content;margin-left:200px;margin-right: 200px">
+        <h1 style="font-family: 'Lobster', cursive;font-size:15px">The GhoSt Presents!</h1><br>
+        <h3 style="font-family: 'Merienda', cursive;font-size: 20px">The Popular XO Game</h3><br>
+        <small style="font-family: 'Pacifico';line-height: 20px;padding-right:0px;font-size:10px">"make 3 in a row to win"</small>
+    </div>
+    <div>
+        <table id="table" style="line-height: 20px;alignment: center;margin-top:10px;" border=1  bordercolor=red  align="center">
+            <tr>
+                <td id="1" onclick="Fill('1')"></td>
+                <td id="2" onclick="Fill('2')"></td>
+                <td id="3" onclick="Fill('3')"></td>
+            </tr>
+            <tr>
+                <td id="4" onclick="Fill('4')"></td>
+                <td id="5" onclick="Fill('5')"></td>
+                <td id="6" onclick="Fill('6')"></td>
+            </tr>
+             <tr>
+                <td id="7" onclick="Fill('7')"></td>
+                <td id="8" onclick="Fill('8')"></td>
+                <td id="9" onclick="Fill('9')"></td>
+            </tr>
+        </table>
+
+    </div>
+<button type="button" class="btn btn-light" style="margin-top:10px;margin-bottom:0px" onclick="Restart()" >Restart</button>
+
+</body>
+</html>

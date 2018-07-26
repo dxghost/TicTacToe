@@ -1,0 +1,22 @@
+body{
+    background-color: #4b4b4f;
+    text-align: center;
+    line-height: 1px;
+}
+h1{
+    color: #b5b5c1;
+}
+h3{
+    color: #d9d9e7;
+}
+small{
+    color: #ffffff;
+}
+td{
+    /*border-style: ;*/
+    border-width:5px;
+    width:100px;
+    height:100px;
+    /*color: #2dd88f;*/
+    /*color: khaki;*/
+}
